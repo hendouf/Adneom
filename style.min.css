@@ -1,0 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,900,700,500,300);
+body{background-image:url(http://www.adneom.com/www/public/images/news.jpg)}
+.newsbgdog{background-image:url(http://www.adneom.com/www/public/images/megaphone_bg_news.png) no-repeat -50px 200px;min-height:904px;overflow:hidden}
+.newscontentwrapper{width:995px;margin:0 auto;overflow:hidden}
+.newscontentwrapper .title{color:#FFF;font-size:100px;text-transform:uppercase;font-weight:400;font-family:HelveticaNeue45Light,helvetica,Arial,sans-serif;margin:200px 0 0;width:650px;overflow:hidden;padding-left:120px;border-bottom:2px #FFF solid;background:url(http://www.adneom.com/www/public/images/megaphone_title_news.png) no-repeat 0 8px;height:120px}
+div#newslist{width:725px;padding-left:65px;background:url(http://www.adneom.com/www/public/images/megaphone_news.png) no-repeat;padding-bottom:15px;overflow:hidden}
+newscontentwrapper #newslist .newsbox p{color:#FFF;font-size:50px;font-family:helvetica,Arial,sans-serif;padding:0;margin:0;text-align:justify}
+newscontentwrapper #newslist .newsbox strong{font-size:18px;display:block;padding-bottom:5px}
+.newscontentwrapper .listfilter{list-style:none;width:90%;margin:0 0 25px;padding:10px;background:#639d04;border-radius:10px;border-right:1px #c2eb72 solid;border-bottom:1px #c2eb72 solid;box-shadow:1px 1px 1px #333 inset;overflow:hidden}
