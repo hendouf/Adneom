@@ -21,7 +21,6 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-family: 'HelveticaNeue45Light',helvetica,Arial,sans-serif;
-    margin: 200px 0 0;
     width: 650px;
     overflow: hidden;
     padding-left: 120px;
@@ -31,8 +30,7 @@ body {
 }
 div#newslist {
     width: 725px;
-    padding-left: 65px;
-    background: url(http://www.adneom.com/www/public/images/megaphone_news.png) no-repeat;
+    padding-left: 200px;
     padding-bottom: 15px;
     overflow: hidden;
 }
