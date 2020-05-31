@@ -1,0 +1,29 @@
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Bienvenue</h1>
+    <h2>Post & Commentaires</h2>
+  </div>
+  <button type="button" class="btn btn-primary" (click)="onAjoutePost()">Ajouter un post</button>
+
+  <div class="panel panel-primary" *ngFor="let new of posts" >
+    <div class="panel-heading">{{new.title}}</div>
+    <div class="panel-body">
+      <a target="_blank"
+      href="new.link">{{new.link}}</a>
+      {{new.upvotes}}      
+      <button type="button" class="btn btn-primary" (click)="onAjouteVote(new)"><i class="fa fa-heart"></i></button>
+    </div>
+  
+    <h5 *ngFor="let comment of new.comments">
+    </h5>
+  
+
+ 
+    <button type="button" class="btn btn-primary" (click)="onDemandeNew(new)">Appeler une new</button>
+
+  </div>
+  
+  
+</div>
+
